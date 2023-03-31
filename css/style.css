@@ -1,0 +1,86 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#container {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#principal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+#img-card {
+  width: 300px;
+  height: 450px;
+  border-radius: 20px 0px 0px 20px;
+}
+#card-text {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 0px 20px 20px 0px;
+}
+#text-h6 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  color: hsl(228, 12%, 48%);
+  margin: 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 22px;
+  font-weight: bold;
+}
+
+#title {
+  font-family: "Fraunces";
+  font-size: 32px;
+  line-height: 1em;
+  color: hsl(212, 21%, 14%);
+  margin-block-start: 0.83em;
+  margin-inline-start: 22px;
+  margin-inline-end: 23px;
+}
+#preco-conj {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+#preco {
+  font-family: "Fraunces";
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  margin: 2%;
+  margin-inline-start: 22px;
+}
+
+p {
+  font-family: "Monteserrat";
+  color: hsl(228, 12%, 48%);
+  line-height: 1.6em;
+  font-size: 17px;
+  margin-inline-start: 23px;
+}
+#button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight:bold;
+  width: 90%;
+  margin: 10px;
+}
